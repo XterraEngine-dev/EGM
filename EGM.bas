@@ -1,6 +1,20 @@
 
 Sub CONSUMOINDIVIDUO()
 
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "CONSUMO INDIVIDUO"
+
+
+
+If ActiveSheet.Name = NOMBRE Then
+   
+
+
 '
 ' CONSUMOINDIVIDUOREP Macro
 '
@@ -748,6 +762,9 @@ Sub CONSUMOINDIVIDUO()
     Range(Selection, Selection.End(xlUp)).Select
     Selection.Delete Shift:=xlUp
     Range("B1").Select
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
@@ -755,6 +772,25 @@ End Sub
 
 Sub CONSUMOINDIVIDUOMARCA()
 Attribute BUILD.VB_ProcData.VB_Invoke_Func = " \n14"
+
+
+
+
+
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "CONSUMO INDIVUO MARCAS"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+
+
 '
 ' BUILD Macro
 '
@@ -2186,6 +2222,13 @@ Attribute BUILD.VB_ProcData.VB_Invoke_Func = " \n14"
     Range("H2").Select
     Selection.End(xlToLeft).Select
 
+
+
+Else
+    MsgBox ERROR
+End If
+'FIN MACRO CONSUMO INDIVIDUO
+
    
 End Sub
 
@@ -2199,7 +2242,25 @@ Attribute CONSUMOHOGARREP.VB_ProcData.VB_Invoke_Func = " \n14"
 ' CONSUMOHOGARREP Macro
 '
 
-'
+
+
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "CONSUMO HOGAR"
+OK = "OK"
+
+
+
+If ActiveSheet.Name = NOMBRE Then
+
+
+
+
     NOTOCARLP
     Range("A4").Select
     Selection.EntireColumn.Insert
@@ -2955,6 +3016,10 @@ Attribute CONSUMOHOGARREP.VB_ProcData.VB_Invoke_Func = " \n14"
     Selection.AutoFill Destination:=Range("A89:A1849")
     Range("A89:A1849").Select
     ActiveWindow.SmallScroll Down:=27
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
@@ -2963,6 +3028,19 @@ Sub CONSUMOHOGARMARCAS()
 'Attribute CHM_PREGUNTAS.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 ' CHM_PREGUNTAS Macro
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "CONSUMO HOGAR MARCAS"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+   
+
 '
 
 '
@@ -3558,6 +3636,9 @@ Sub CONSUMOHOGARMARCAS()
     ActiveCell.FormulaR1C1 = "Respuesta"
     Range("B4").Select
     CSHMTARGET
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
@@ -4131,6 +4212,22 @@ End Sub
 
 
 Sub TRANSPORTE()
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "TRANSPORTE"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+
+
+
+
 Attribute TRANSPORTE.VB_ProcData.VB_Invoke_Func = "j\n14"
 '
 ' TRANSPORTE Macro
@@ -5312,12 +5409,32 @@ Attribute TRANSPORTE.VB_ProcData.VB_Invoke_Func = "j\n14"
     Range("A2227").Select
     Selection.End(xlUp).Select
     ActiveWorkbook.Save
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
 
 
 Sub MEDIOSDIAAYER()
+
+
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "MEDIO D.AYER"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+
+
 '
 ' MEDIOSDIAAYER Macro
 '
@@ -6260,11 +6377,29 @@ Sub MEDIOSDIAAYER()
     Range("B9").Select
     ActiveWindow.SmallScroll Down:=-15
     ActiveWorkbook.Save
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
-
 Sub TELEFONIA()
+
+
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "TELEFONIA"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+
 
 '
 ' Macro6 Macro
@@ -7333,13 +7468,30 @@ Sub TELEFONIA()
     Selection.End(xlUp).Select
     Range("H1").Select
     ActiveWorkbook.Save
+
+    Else
+    MsgBox ERROR
+End If
+
 End Sub
 
 
 
-
-
 Sub INTERNET()
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "INTERNET"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+  
+
+
 
 '
 ' Internet Macro
@@ -8687,12 +8839,29 @@ Sub INTERNET()
     End With
     Range("B7").Select
     ActiveWorkbook.Save
+
+    Else
+    MsgBox ERROR
+End If
+
 End Sub
 
 
 
-
 Sub MEDIOSU30()
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "MEDIOS U.30"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+  
 
 '
 ' Macro3 Macro
@@ -9664,6 +9833,10 @@ Sub MEDIOSU30()
     Range("A6952").Select
     Selection.End(xlUp).Select
     ActiveWorkbook.Save
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
@@ -9671,6 +9844,20 @@ End Sub
 
 
 Sub MEDIOSUPTOTAL()
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "MEDIOS U.P."
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+   
+
 
 '
 ' Macro2 Macro
@@ -10938,11 +11125,30 @@ Sub MEDIOSUPTOTAL()
     Range("A8485").Select
     Selection.End(xlUp).Select
     ActiveWorkbook.Save
+
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
 
 Sub ESTILOSDEVIDA()
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "ESTILOS DE VIDA"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+   
+
 
 '
 ' Macro1 Macro
@@ -12285,10 +12491,26 @@ Sub ESTILOSDEVIDA()
     Range("A7225").Select
     Selection.End(xlUp).Select
     Selection.End(xlUp).Select
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
+
 Sub EQUIPAMIENTO()
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "EQUIPAMIENTO"
+
+
+
+If ActiveSheet.Name = NOMBRE Then
 
 '
 ' Macro3 Macro
@@ -13457,7 +13679,15 @@ Sub EQUIPAMIENTO()
     Range("A820").Select
     Selection.End(xlUp).Select
     Selection.End(xlUp).Select
+
+    Else
+    MsgBox ERROR
+End If
+
+
 End Sub
+
+
 
 Sub MEDIOSDEPTO()
 
@@ -15549,6 +15779,20 @@ End Sub
 
 Sub PERFIL()
 
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "PERFIL"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+
+
+
 '
 ' Macro1 Macro
 '
@@ -16609,10 +16853,16 @@ Sub PERFIL()
     Selection.End(xlDown).Select
     Range("A1282").Select
     Selection.End(xlUp).Select
+
+    Else
+    MsgBox ERROR
+End If
 End Sub
 
 
 Sub MEDIOS()
+
+
 
 '
 ' Macro1 Macro
@@ -17549,6 +17799,22 @@ Sub SERVICIOSFINANCIEROS()
 '
 
 '
+
+
+
+Dim NOMBRE As String
+Dim ERROR As String
+Dim OK As String
+
+
+ERROR = "LA MACRO SELECCIONADA NO ES VALIDA"
+NOMBRE = "SERVICIOS FINANCIEROS"
+OK = "OK"
+
+
+If ActiveSheet.Name = NOMBRE Then
+   
+
     NOTOCARLPv3
     Selection.EntireColumn.Insert
     Range("B4").Select
@@ -18315,6 +18581,10 @@ Sub SERVICIOSFINANCIEROS()
 
       Rows("1:1").Select
     Selection.Delete Shift:=xlUp
+
+    Else
+    MsgBox ERROR
+End If
  
 End Sub
 
