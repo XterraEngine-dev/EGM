@@ -3095,15 +3095,15 @@ If ActiveSheet.Name = NOMBRE Then
     Range("A61").Activate
     Selection.ClearContents
     Range("C62").Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
-    'Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
     Selection.End(xlUp).Select
     Selection.AutoFilter
     ActiveSheet.Range("$A$1:$CH$1554").AutoFilter Field:=3, Criteria1:="="
@@ -3389,12 +3389,12 @@ If ActiveSheet.Name = NOMBRE Then
     Selection.AutoFill Destination:=Range("A413:A424")
     Range("A413:A424").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A425:A431")
+    Selection.AutoFill Destination:=Range("A425:A434")
     Range("A425:A431").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A432:A434")
-    Range("A432:A434").Select
-    Selection.End(xlDown).Select
+    'Selection.AutoFill Destination:=Range("A432:A434")
+    'Range("A432:A434").Select
+    'Selection.End(xlDown).Select
     Selection.AutoFill Destination:=Range("A435:A447")
     Range("A435:A447").Select
     Selection.End(xlDown).Select
@@ -3428,12 +3428,12 @@ If ActiveSheet.Name = NOMBRE Then
     Selection.AutoFill Destination:=Range("A625:A641")
     Range("A625:A641").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A642:A658")
-    Range("A642:A658").Select
+    Selection.AutoFill Destination:=Range("A642:A662")
+    Range("A642:A662").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A659:A662")
-    Range("A659:A662").Select
-    Selection.End(xlDown).Select
+    'Selection.AutoFill Destination:=Range("A659:A662")
+    'Range("A659:A662").Select
+    'Selection.End(xlDown).Select
     Selection.AutoFill Destination:=Range("A663:A676")
     Range("A663:A676").Select
     Selection.End(xlDown).Select
@@ -3464,18 +3464,18 @@ If ActiveSheet.Name = NOMBRE Then
     Selection.AutoFill Destination:=Range("A823:A830")
     Range("A823:A830").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A831:A846")
-    Range("A831:A846").Select
+    Selection.AutoFill Destination:=Range("A831:A850")
+    Range("A831:A850").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A847:A850")
-    Range("A847:A850").Select
+    'Selection.AutoFill Destination:=Range("A847:A850")
+    'Range("A847:A850").Select
+    'Selection.End(xlDown).Select
+    Selection.AutoFill Destination:=Range("A851:A866")
+    Range("A851:A866").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A851:A863")
-    Range("A851:A863").Select
-    Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A864:A866")
-    Range("A864:A866").Select
-    Selection.End(xlDown).Select
+    'Selection.AutoFill Destination:=Range("A864:A866")
+    'Range("A864:A866").Select
+    'Selection.End(xlDown).Select
     Selection.AutoFill Destination:=Range("A867:A874")
     Range("A867:A874").Select
     Selection.End(xlDown).Select
@@ -3485,22 +3485,22 @@ If ActiveSheet.Name = NOMBRE Then
     Selection.AutoFill Destination:=Range("A881:A906")
     Range("A881:A906").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A907:A938")
-    Range("A907:A938").Select
+    Selection.AutoFill Destination:=Range("A907:A941")
+    Range("A907:A941").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A939:A941")
-    Range("A939:A941").Select
-    Selection.End(xlDown).Select
+    'Selection.AutoFill Destination:=Range("A939:A941")
+    'Range("A939:A941").Select
+    'Selection.End(xlDown).Select
     Selection.AutoFill Destination:=Range("A942:A984")
     Range("A942:A984").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A985:A1010")
-    Range("A985:A1010").Select
+    Selection.AutoFill Destination:=Range("A985:A1014")
+    Range("A985:A1014").Select
     Selection.End(xlDown).Select
-    Range("A1011").Select
-    Selection.AutoFill Destination:=Range("A1011:A1014")
-    Range("A1011:A1014").Select
-    Range("A1015").Select
+    'Range("A1011").Select
+    'Selection.AutoFill Destination:=Range("A1011:A1014")
+    'Range("A1011:A1014").Select
+    'Range("A1015").Select
     Selection.AutoFill Destination:=Range("A1015:A1024")
     Range("A1015:A1024").Select
     Range("A1025").Select
@@ -3516,12 +3516,12 @@ If ActiveSheet.Name = NOMBRE Then
     Selection.AutoFill Destination:=Range("A1076:A1101")
     Range("A1076:A1101").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A1102:A1127")
-    Range("A1102:A1127").Select
+    Selection.AutoFill Destination:=Range("A1102:A1131")
+    Range("A1102:A1131").Select
     Selection.End(xlDown).Select
-    Selection.AutoFill Destination:=Range("A1128:A1131")
-    Range("A1128:A1131").Select
-    Selection.End(xlDown).Select
+    'Selection.AutoFill Destination:=Range("A1128:A1131")
+    'Range("A1128:A1131").Select
+    'Selection.End(xlDown).Select
     Selection.AutoFill Destination:=Range("A1132:A1154")
     Range("A1132:A1154").Select
     Selection.End(xlDown).Select
