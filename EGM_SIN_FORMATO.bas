@@ -5883,14 +5883,120 @@ If ActiveSheet.Name = NOMBRE Then
     Range("H2").Select
     Selection.End(xlToLeft).Select
     CLEARCONTROLER(0505)
+    REPARACION_CONSUMO_IND_MARCAS
+
 Else
     MsgBox ERROR
 End If
 'FIN MACRO CONSUMO INDIVIDUO
 
+
+
    
 End Sub
 
+
+Private Sub REPARACION_CONSUMO_IND_MARCAS()
+'
+' REPARACION_CONSUMO_IND_MARCAS Macro
+'
+
+'
+    Range("D10").Select
+    ActiveWindow.SmallScroll Down:=399
+    ActiveWindow.ScrollRow = 405
+    ActiveWindow.ScrollRow = 473
+    ActiveWindow.ScrollRow = 878
+    ActiveWindow.ScrollRow = 945
+    ActiveWindow.ScrollRow = 1013
+    ActiveWindow.ScrollRow = 1688
+    ActiveWindow.ScrollRow = 2700
+    ActiveWindow.ScrollRow = 2768
+    ActiveWindow.ScrollRow = 2970
+    ActiveWindow.ScrollRow = 3240
+    ActiveWindow.ScrollRow = 3443
+    ActiveWindow.ScrollRow = 3713
+    ActiveWindow.ScrollRow = 3848
+    ActiveWindow.ScrollRow = 3983
+    ActiveWindow.ScrollRow = 4050
+    ActiveWindow.ScrollRow = 4253
+    ActiveWindow.ScrollRow = 4320
+    ActiveWindow.ScrollRow = 4455
+    ActiveWindow.ScrollRow = 4590
+    ActiveWindow.ScrollRow = 4725
+    ActiveWindow.ScrollRow = 4860
+    ActiveWindow.ScrollRow = 4927
+    ActiveWindow.ScrollRow = 5062
+    ActiveWindow.ScrollRow = 5130
+    ActiveWindow.ScrollRow = 5265
+    ActiveWindow.ScrollRow = 5332
+    ActiveWindow.ScrollRow = 5467
+    ActiveWindow.ScrollRow = 5468
+    ActiveWindow.SmallScroll Down:=-144
+    Range("D5336").Select
+    ActiveWindow.SmallScroll Down:=-180
+    ActiveWindow.ScrollRow = 5197
+    ActiveWindow.ScrollRow = 5130
+    ActiveWindow.ScrollRow = 4995
+    ActiveWindow.ScrollRow = 4927
+    ActiveWindow.ScrollRow = 4792
+    ActiveWindow.ScrollRow = 4725
+    ActiveWindow.ScrollRow = 4590
+    ActiveWindow.SmallScroll Down:=-54
+    Range("D4547").Select
+    Selection.Copy
+    Range("D4547:D6061").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=108
+    ActiveWindow.ScrollRow = 4657
+    ActiveWindow.ScrollRow = 4725
+    ActiveWindow.ScrollRow = 4792
+    ActiveWindow.ScrollRow = 4860
+    ActiveWindow.ScrollRow = 4927
+    ActiveWindow.ScrollRow = 4995
+    ActiveWindow.ScrollRow = 5062
+    ActiveWindow.ScrollRow = 5130
+    ActiveWindow.ScrollRow = 5197
+    ActiveWindow.ScrollRow = 5265
+    ActiveWindow.ScrollRow = 5332
+    ActiveWindow.ScrollRow = 5535
+    ActiveWindow.ScrollRow = 5737
+    ActiveWindow.ScrollRow = 5805
+    ActiveWindow.ScrollRow = 5872
+    ActiveWindow.ScrollRow = 6007
+    ActiveWindow.ScrollRow = 6075
+    ActiveWindow.ScrollRow = 6142
+    ActiveWindow.ScrollRow = 6345
+    ActiveWindow.ScrollRow = 6412
+    ActiveWindow.ScrollRow = 6615
+    ActiveWindow.ScrollRow = 6750
+    ActiveWindow.ScrollRow = 6817
+    ActiveWindow.ScrollRow = 6885
+    ActiveWindow.ScrollRow = 6952
+    ActiveWindow.ScrollRow = 7087
+    ActiveWindow.ScrollRow = 7222
+    ActiveWindow.ScrollRow = 7155
+    ActiveWindow.ScrollRow = 7020
+    ActiveWindow.ScrollRow = 6750
+    ActiveWindow.ScrollRow = 6682
+    ActiveWindow.ScrollRow = 6615
+    ActiveWindow.ScrollRow = 6547
+    ActiveWindow.ScrollRow = 6480
+    ActiveWindow.ScrollRow = 6412
+    ActiveWindow.ScrollRow = 6345
+    ActiveWindow.ScrollRow = 6277
+    ActiveWindow.ScrollRow = 6210
+    ActiveWindow.ScrollRow = 6075
+    ActiveWindow.ScrollRow = 6007
+    ActiveWindow.ScrollRow = 5872
+    ActiveWindow.ScrollRow = 5873
+    ActiveWindow.SmallScroll Down:=177
+    Range("D6060").Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+    Selection.End(xlUp).Select
+End Sub
 
 '==========================================| FIN CONSUMOINDIVIDUO_MARCAS | ========================================
 
